@@ -6,7 +6,7 @@ require 'pry'
 # Creates/writes .txt documents 
 
 class Document
-	@find = ['nav ul.menu li a', 'article h2'] # why it doesn't working???
+	@find = ['nav ul.menu li a', 'article h2']
 	@say = '=============links&headers============='
 
 	def self.parse
