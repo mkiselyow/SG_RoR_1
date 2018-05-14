@@ -10,7 +10,7 @@ class Document
 	@say = '=============links&headers============='
 
 	def self.parse
-		# $stdout = File.open("#{@say}.txt", 'a')
+		$stdout = File.open("#{@say}.txt", 'a')
 		doc = Nokogiri::HTML(open('http://www.nokogiri.org/tutorials/installing_nokogiri.html'))
 			
     puts @say
